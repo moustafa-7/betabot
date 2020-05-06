@@ -143,13 +143,13 @@ Add unlisted youtube/drive videos
 ### Screenshots
 1. rviz with all navigation launchers from turtulbot
 
-   ![image-20200506215603810](/home/mostafa-7/.config/Typora/typora-user-images/image-20200506215603810.png)
+   ![image-20200506215603810](../image-20200506215603810.png)
 
 2. gazebo
 
-![image]()
 
-![image-20200506220425754](/home/mostafa-7/.config/Typora/typora-user-images/image-20200506220425754.png)
+
+![image-20200506220425754](../image-20200506220425754.png)
 
 ---
 

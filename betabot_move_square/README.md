@@ -83,9 +83,9 @@ Add unlisted youtube/drive video
 
 ## Screenshot
 
-[image]()![image-20200506212517727](/home/mostafa-7/.config/Typora/typora-user-images/image-20200506212517727.png)
+[image]()![image-20200506212517727](../image-20200506212517727.png)
 
-![image-20200506212640288](/home/mostafa-7/.config/Typora/typora-user-images/image-20200506212640288.png)
+![image-20200506212640288](../image-20200506212640288.png)
 
 ---
 
