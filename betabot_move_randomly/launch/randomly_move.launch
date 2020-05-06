@@ -1,0 +1,4 @@
+<launch>
+    <include file = "$(find betabot_gazebo)/launch/betabot_maze.launch"/>
+    <node pkg="betabot_move_randomly" name="mover" type="move.py"></node>
+</launch>

@@ -58,6 +58,7 @@ add_service_files(
   FILES
   GetClosest.srv
   GetDistance.srv
+  move_square.srv
 )
 
 ## Generate actions in the 'action' folder

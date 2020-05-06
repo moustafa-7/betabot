@@ -1,0 +1,12 @@
+<launch>
+  <!-- ==========Simulation Environment============ -->
+  <!-- using custom sdf models -->
+  <env name="GAZEBO_MODEL_PATH" value="$(find betabot_gazebo)/models"/>
+  <!-- call betabot costom world -->
+  <include file="$(find betabot_gazebo)/launch/betabot_playground_world.launch"></include> 
+
+      
+  <!-- send fake joint values -->
+  <node name="landmark_monitor" pkg="betabot_closeto" type="landmark_monitor"> </node>
+
+</launch>

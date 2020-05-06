@@ -4,7 +4,8 @@
   <!-- <master auto="start"/> -->
 
   <!-- Map server -->
-  <arg name="map_file" default="$(find betabot_navigation)/maps/jackal_race.yaml"/>
+  <!-- <arg name="map_file" default="$(find betabot_navigation)/maps/jackal_race.yaml"/> -->
+  <arg name="map_file" default="$(find betabot_navigation)/maps/map.yaml"/>
   <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)" />
 
   <!-- Place map frame at odometry frame -->

@@ -1,4 +1,4 @@
-#include "ros/ros.h"                          // ROS Default Header File
+#include "ros/ros.h"                         // ROS Default Header File
 #include "betabot_msgs/GetClosest.h"
 #include "betabot_msgs/GetClosestResponse.h"
 #include "betabot_msgs/GetDistance.h"
@@ -6,7 +6,7 @@
 #include <iostream>
 
 
-int main(int argc, char **argv)                // Node Main Function
+int main(int argc, char **argv)                // Node Main Function>>
 {
   ros::init(argc, argv, "landmark_client");   // Initializes Node Name
   ros::NodeHandle nh;                          // Node handle declaration
@@ -72,6 +72,8 @@ int main(int argc, char **argv)                // Node Main Function
         std::cout << "-------------- \n" << landmark_name << ":" << dist_res << std::endl;          
 
   }
+  
+  
 
   return 0;
 }
